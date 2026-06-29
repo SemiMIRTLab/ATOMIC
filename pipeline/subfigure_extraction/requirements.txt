@@ -1,0 +1,6 @@
+# CUDA 12.1 build — install PyTorch with the matching CUDA version:
+# pip install torch==2.4.1 torchvision==0.19.1 --index-url https://download.pytorch.org/whl/cu121
+torch==2.4.1+cu121
+torchvision==0.19.1+cu121
+ultralytics==8.3.135
+Pillow==10.4.0
