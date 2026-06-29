@@ -27,7 +27,7 @@ ATOMIC-Gemma is trained from `google/gemma-3-4b-it` using Stage 2 data only.
 | File | Description |
 |------|-------------|
 | `atomic_gemma/convert_to_gemma_format.py` | Convert LLaVA JSON format to Gemma3 Vision format |
-| `atomic_gemma/train_gemma3_vision.py` | SFT training script for Gemma3-4B-IT |
+| `atomic_gemma/train_gemma3.py` | SFT training script for Gemma3-4B-IT |
 
 ### Installation
 
@@ -50,14 +50,14 @@ python atomic_gemma/convert_to_gemma_format.py \
 
 ```bash
 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
-torchrun --nproc_per_node=4 atomic_gemma/train_gemma3_vision.py
+torchrun --nproc_per_node=4 atomic_gemma/train_gemma3.py
 ```
 
 To run in test mode (10 samples only):
 
 ```bash
 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
-torchrun --nproc_per_node=4 atomic_gemma/train_gemma3_vision.py --test
+torchrun --nproc_per_node=4 atomic_gemma/train_gemma3.py --test
 ```
 
 ### Training Configuration
