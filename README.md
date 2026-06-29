@@ -46,7 +46,7 @@ The training pipeline consists of two stages:
 | Gemini-2.5-Flash | 17.8 | 22.2 | 26.0 | 37.7 | 90.3 |
 | Llama-3.2-11B† | 17.0 | 21.3 | 23.3 | 33.2 | 86.7 |
 | **ATOMIC-Gemma†** | **16.0** | **19.5** | **23.6** | **35.0** | **82.7** |
-| Gemma3-4B-IT† | 19.4 | 24.1 | 18.7 | 24.2 | 77.7 |
+| Gemma3-4B-it† | 19.4 | 24.1 | 18.7 | 24.2 | 77.7 |
 | **ATOMIC-13b-Blend** | **11.6** | **15.5** | **21.7** | **36.6** | **76.5** |
 | **ATOMIC-7b-Blend** | **12.2** | **16.2** | **22.8** | **37.5** | **75.1** |
 | LLaVA-v1.5-13b | 10.5 | 15.0 | 17.8 | 31.0 | 74.0 |
@@ -68,8 +68,8 @@ PC: Processing Correlation, MA: Morphology Analysis, SA: Structure Analysis, PA:
 | Gemini-2.5-Flash | 83.1 | 60.0 | 67.9 | 100.0 | 54.5 | 68.5 |
 | **ATOMIC-Gemma** | **63.6** | **62.2** | **66.1** | **83.3** | **33.3** | **62.0** |
 | Llama-3.2-11B | 72.7 | 61.1 | 58.2 | 66.7 | 18.2 | 58.5 |
-| Gemma3-4B-IT | 62.3 | 57.8 | 61.8 | 83.3 | 21.2 | 57.7 |
 | **ATOMIC-7B+FT** | **72.7** | **63.3** | **52.7** | **50.0** | **21.2** | **56.6** |
+| Gemma3-4B-it | 62.3 | 57.8 | 61.8 | 83.3 | 21.2 | 48.8 |
 | **ATOMIC-7B** | **59.7** | **47.8** | **47.9** | **33.3** | **21.2** | **47.7** |
 | LLaVA-v1.5-7B+FT | 35.1 | 46.7 | 39.4 | 50.0 | 18.2 | 38.5 |
 | LLaVA-v1.5-7B | 22.1 | 44.4 | 39.4 | 33.3 | 18.2 | 35.0 |
@@ -82,7 +82,8 @@ PC: Processing Correlation, MA: Morphology Analysis, SA: Structure Analysis, PA:
 
 ```
 ATOMIC/
-├── data/                          # TEM source index, evaluation datasets, │   └──reconstruction script
+├── data/                          # TEM source index, evaluation datasets, 
+│   └──reconstruction script
 ├── pipeline/
 │   ├── crawling/                  # Nature portfolio journal crawlers
 │   ├── subfigure_extraction/      # YOLO + ResNet subfigure extraction
