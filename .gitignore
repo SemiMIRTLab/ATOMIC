@@ -1,0 +1,55 @@
+# Environment variables
+.env
+*.env
+
+# Crawling outputs
+pipeline/crawling/downloads_nature/
+pipeline/crawling/downloads_ncomms/
+pipeline/crawling/downloads_nmat/
+pipeline/crawling/downloads_nnano/
+pipeline/crawling/dataset_nature.csv
+pipeline/crawling/dataset_ncomms.csv
+pipeline/crawling/dataset_nmat.csv
+pipeline/crawling/dataset_nnano.csv
+pipeline/crawling/logs/
+
+# Subfigure extraction outputs
+pipeline/subfigure_extraction/results.csv
+
+# Instruction generation outputs
+pipeline/instruction_generation/total_dataset.csv
+pipeline/instruction_generation/train.csv
+pipeline/instruction_generation/test.csv
+pipeline/instruction_generation/stage1_descriptions.csv
+pipeline/instruction_generation/stage2_conversations.csv
+pipeline/instruction_generation/TEM_MCQ.csv
+
+# Data
+data/Data/
+
+# Model weights
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Evaluation results
+evaluation/results/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
