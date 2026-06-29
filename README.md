@@ -47,12 +47,12 @@ The training pipeline consists of two stages:
 | Llama-3.2-11B† | 17.0 | 21.3 | 23.3 | 33.2 | 86.7 |
 | **ATOMIC-Gemma†** | **16.0** | **19.5** | **23.6** | **35.0** | **82.7** |
 | Gemma3-4B-it† | 19.4 | 24.1 | 18.7 | 24.2 | 77.7 |
-| **ATOMIC-13b-Blend** | **11.6** | **15.5** | **21.7** | **36.6** | **76.5** |
-| **ATOMIC-7b-Blend** | **12.2** | **16.2** | **22.8** | **37.5** | **75.1** |
+| **ATOMIC-13b-Blend** | **11.7** | **15.5** | **21.7** | **36.6** | **76.5** |
+| **ATOMIC-7b-Blend** | **12.2** | **16.2** | **22.8** | **37.5** | **75.2** |
 | LLaVA-v1.5-13b | 10.5 | 15.0 | 17.8 | 31.0 | 74.0 |
 | BLIP2-FlanT5-XL | 9.7 | 14.3 | 9.1 | 12.3 | 73.5 |
 | LLaVA-v1.5-7b | 9.6 | 13.6 | 18.2 | 33.3 | 70.9 |
-| InstructBLIP-7b | 9.0 | 14.4 | 9.1 | 12.6 | 62.6 |
+| InstructBLIP-7b | 9.0 | 14.4 | 9.1 | 12.6 | 61.6 |
  
 † Additional experiments conducted after the ECCV 2026 submission deadline.
 
