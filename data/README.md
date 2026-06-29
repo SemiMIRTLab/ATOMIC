@@ -4,6 +4,21 @@ This directory contains the dataset resources for ATOMIC.
 
 ---
 
+## Training & Evaluation Annotations
+
+Training data (Stage 1, Stage 2) and downstream fine-tuning data are hosted on HuggingFace due to file size:
+
+👉 [https://huggingface.co/datasets/LabSmart/ATOMIC_dataset](https://huggingface.co/datasets/LabSmart/ATOMIC_dataset)
+
+TEM-MCQ and TEM-VQA evaluation datasets are available in `evaluation/`:
+
+| File | Description |
+|------|-------------|
+| `evaluation/TEM_MCQ.csv` | TEM-MCQ benchmark (multiple-choice) |
+| `evaluation/TEM_VQA.csv` | TEM-VQA benchmark (open-ended) |
+
+---
+
 ## Quick Start: Reconstruct Subfigures from Source Index
 
 If you want to obtain the TEM subfigures used in our paper, follow these two steps:
@@ -50,8 +65,8 @@ Output subfigures will be saved to `Data/TEM_subfigures/`, named by `TEM_SUB_IMA
 If you want to collect your own TEM dataset rather than reconstructing ours, refer to `pipeline/` instead:
 
 ```
-pipeline/crawling/             # Crawl articles from Nature portfolio journals
-pipeline/subfigure_extraction/ # Extract and classify TEM subfigures (YOLO + ResNet)
+pipeline/crawling/               # Crawl articles from Nature portfolio journals
+pipeline/subfigure_extraction/   # Extract and classify TEM subfigures (YOLO + ResNet)
 pipeline/instruction_generation/ # Generate training data with GPT
 ```
 

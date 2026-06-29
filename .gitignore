@@ -26,6 +26,9 @@ pipeline/instruction_generation/TEM_MCQ.csv
 
 # Data
 data/Data/
+data/Stage1_training_data/
+data/Stage2_training_data/
+data/downstream/
 
 # Model weights
 *.pt
