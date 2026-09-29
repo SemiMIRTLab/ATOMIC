@@ -112,12 +112,13 @@ TEM-MCQ and TEM-VQA evaluation sets are also available in `data/evaluation/`.
 ## Citation
 
 ```bibtex
-@inproceedings{atomic2026eccv,
-  title     = {ATOMIC: A Domain-Specific Vision-Language Model
-               for Transmission Electron Microscopy},
-  booktitle = {Proceedings of ECCV 2026},
-  year      = {2026},
-  note      = {BibTeX will be updated upon publication}
+@inproceedings{tu2026atomic,
+  title={ATOMIC: A Domain-Specific Vision-Language Model for Transmission Electron Microscopy},
+  author={Tu, Chong-ren and Hsueh, Hung-wei and Hsu, Shu-han},
+  booktitle={European Conference on Computer Vision},
+  pages={427--444},
+  year={2026},
+  organization={Springer}
 }
 ```
 
@@ -126,3 +127,4 @@ TEM-MCQ and TEM-VQA evaluation sets are also available in `data/evaluation/`.
 ## Updates
 
 - **2026-06**: Initial release (ECCV 2026 camera-ready)
+- **2026-09**: Paper presented at ECCV 2026; citation and BibTeX updated
